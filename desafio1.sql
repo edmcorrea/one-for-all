@@ -60,8 +60,8 @@ DROP DATABASE IF EXISTS SpotifyClone;
       id_artista INT NOT NULL,
       id_usuario INT NOT NULL,
       CONSTRAINT PRIMARY KEY(id_artista, id_usuario),
-      FOREIGN KEY (id_usuario) REFERENCES usuarios (id_usuario),
-      FOREIGN KEY (id_artista) REFERENCES artistas (id_artista)
+      FOREIGN KEY (id_artista) REFERENCES artistas (id_artista),
+      FOREIGN KEY (id_usuario) REFERENCES usuarios (id_usuario)
   ) engine = InnoDB;
 
   INSERT INTO SpotifyClone.planos (plano, valor)
@@ -163,6 +163,5 @@ DROP DATABASE IF EXISTS SpotifyClone;
     (6, 6),
     (6, 1),
     (7, 6),
-    (8, NULL),
     (9, 3),
     (10, 2);
