@@ -1,10 +1,5 @@
 # Projeto One For All!
 
-Para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo e, se tiver qualquer dúvida, nos envie por Slack! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um Pull Request para colocar seus códigos.
-
-
 # Comandos SQL Desenvolvidos
 
 ## Desafio 1
